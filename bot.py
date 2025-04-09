@@ -7,6 +7,7 @@ TOKEN = os.environ.get("TOKEN")
 def start(update: Update, context: CallbackContext):
     update.message.reply_text("✅ Bot đã hoạt động thành công trên Railway!")
 
+
 def main():
     updater = Updater(TOKEN, use_context=True)
     dp = updater.dispatcher
