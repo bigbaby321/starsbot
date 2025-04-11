@@ -16,7 +16,6 @@ logger = logging.getLogger(__name__)
 
 # === Config ===
 TOKEN = os.getenv("TOKEN")
-print("TOKEN =", os.getenv("TOKEN"))
 DATA_FILE = "data.json"
 WAIT_TIME = 8 * 60 * 60
 LEVELS = [(150000, 5, 1), (100000, 4, 3), (20000, 3, 12), (10000, 2, 17), (0, 1, 21)]
